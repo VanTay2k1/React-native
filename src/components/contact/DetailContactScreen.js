@@ -2,7 +2,6 @@ import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
 import Constant from '../../controller/Constant'
 import { useRoute } from '@react-navigation/native'
-import { useNavigation } from '@react-navigation/native'
 import Icon from 'react-native-vector-icons/dist/FontAwesome'
 
 const DetailContactScreen = () => {
