@@ -92,8 +92,8 @@ const ContacScreen = () => {
     React.useEffect(() => {
         GarageAPIs.getUser()
             .then((data) => {
-                console.log('Danh sach user')
-                console.log(data)
+                // console.log('Danh sach user')
+                // console.log(data)
                 setUser(data)
             })
             .catch((error) => {

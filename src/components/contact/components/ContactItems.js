@@ -18,9 +18,9 @@ const ContactItem = ({ screen, contact }) => {
         <TouchableOpacity style={styles.rootView} onPress={showDetailContact}>
             <Image style={styles.avatarImg} source={{ uri: contact?.avatar }} />
             <View style={styles.contentView}>
-                <Text
+                <Texts
                     style={styles.nameView}
-                >{`${contact?.first_name} ${contact?.last_name}`}</Text>
+                >{`${contact?.first_name} ${contact?.last_name}`}</Texts>
                 <Text styles={styles.emailView}>{contact?.email}</Text>
             </View>
             <View style={styles.buttonCall}>
